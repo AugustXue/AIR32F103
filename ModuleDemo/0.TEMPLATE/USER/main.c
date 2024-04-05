@@ -9,6 +9,7 @@ int main(void)
 {
     delay_init();
     UART_to_log_init(115200);
+	
     while (1)
     {
         AX_DEBUG_PRINTF("Hello,xzp");
