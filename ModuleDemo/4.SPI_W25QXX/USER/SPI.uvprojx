@@ -52,7 +52,7 @@
           <OutputName>SPI</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>0</CreateHexFile>
+          <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\Listings\</ListingPath>
@@ -186,11 +186,10 @@
             <RvdsVP>0</RvdsVP>
             <RvdsMve>0</RvdsMve>
             <RvdsCdeCp>0</RvdsCdeCp>
-            <nBranchProt>0</nBranchProt>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
-            <useUlib>0</useUlib>
+            <useUlib>1</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
             <nSecure>0</nSecure>
@@ -340,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\Libraries\AIR32F10xLib\inc;..\..\..\..\Libraries\CMSIS\Include;..\SYSTEM\delay;..\USER;..\HARDWARE</IncludePath>
+              <IncludePath>..\..\..\Libraries\AIR32F10xLib\inc;..\..\..\Libraries\CMSIS\Include;..\SYSTEM\delay;..\USER;..\HARDWARE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -397,7 +396,7 @@
             <File>
               <FileName>system_air32f10x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\system_air32f10x.c</FilePath>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\system_air32f10x.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -405,14 +404,9 @@
           <GroupName>HARDWARE</GroupName>
           <Files>
             <File>
-              <FileName>oled.c</FileName>
+              <FileName>w25qxx.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\HARDWARE\oled.c</FilePath>
-            </File>
-            <File>
-              <FileName>spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\spi.c</FilePath>
+              <FilePath>..\HARDWARE\w25qxx.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -432,7 +426,7 @@
             <File>
               <FileName>startup_air32f10x.s</FileName>
               <FileType>2</FileType>
-              <FilePath>..\..\..\..\Libraries\STARTUP\arm\startup_air32f10x.s</FilePath>
+              <FilePath>..\..\..\Libraries\STARTUP\arm\startup_air32f10x.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -442,32 +436,32 @@
             <File>
               <FileName>misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\misc.c</FilePath>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\misc.c</FilePath>
             </File>
             <File>
               <FileName>air32f10x_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_rcc.c</FilePath>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_rcc.c</FilePath>
             </File>
             <File>
               <FileName>air32f10x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_gpio.c</FilePath>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_gpio.c</FilePath>
             </File>
             <File>
               <FileName>air32f10x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_usart.c</FilePath>
-            </File>
-            <File>
-              <FileName>air32f10x_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_dma.c</FilePath>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_usart.c</FilePath>
             </File>
             <File>
               <FileName>air32f10x_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_spi.c</FilePath>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>air32f10x_dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_dma.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -485,6 +479,12 @@
     <Layers>
       <Layer>
         <LayName>SPI</LayName>
+        <LayDesc></LayDesc>
+        <LayUrl></LayUrl>
+        <LayKeys></LayKeys>
+        <LayCat></LayCat>
+        <LayLic></LayLic>
+        <LayTarg>0</LayTarg>
         <LayPrjMark>1</LayPrjMark>
       </Layer>
     </Layers>

@@ -140,7 +140,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>ST-LINKIII-KEIL_SWO</Key>
-          <Name>-UD -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO131090 -TC10000000 -TT10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO15 -FD20000000 -FC8000 -FN1 -FF0Air32F103CBT6.FLM -FS08000000 -FL020000 -FP0($$Device:AIR32F103CB$Flash\Air32F103CBT6.FLM)</Name>
+          <Name>-UP -O206 -SF4000 -C0 -A0 -I0 -HNlocalhost -HP7184 -P1 -N00("ARM CoreSight SW-DP") -D00(2BA01477) -L00(0) -TO131090 -TC10000000 -TT10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO15 -FD20000000 -FC8000 -FN1 -FF0Air32F103CBT6.FLM -FS08000000 -FL020000 -FP0($$Device:AIR32F103CB$Flash\Air32F103CBT6.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -236,7 +236,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\system_air32f10x.c</PathWithFileName>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\system_air32f10x.c</PathWithFileName>
       <FilenameWithoutPath>system_air32f10x.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -256,8 +256,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\HARDWARE\w25qxx.c</PathWithFileName>
-      <FilenameWithoutPath>w25qxx.c</FilenameWithoutPath>
+      <PathWithFileName>..\HARDWARE\oled.c</PathWithFileName>
+      <FilenameWithoutPath>oled.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>2</GroupNumber>
+      <FileNumber>5</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\spi.c</PathWithFileName>
+      <FilenameWithoutPath>spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -271,7 +283,7 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>3</GroupNumber>
-      <FileNumber>5</FileNumber>
+      <FileNumber>6</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
@@ -291,12 +303,12 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>4</GroupNumber>
-      <FileNumber>6</FileNumber>
+      <FileNumber>7</FileNumber>
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\STARTUP\arm\startup_air32f10x.s</PathWithFileName>
+      <PathWithFileName>..\..\..\Libraries\STARTUP\arm\startup_air32f10x.s</PathWithFileName>
       <FilenameWithoutPath>startup_air32f10x.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -311,25 +323,13 @@
     <RteFlg>0</RteFlg>
     <File>
       <GroupNumber>5</GroupNumber>
-      <FileNumber>7</FileNumber>
-      <FileType>1</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\misc.c</PathWithFileName>
-      <FilenameWithoutPath>misc.c</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>5</GroupNumber>
       <FileNumber>8</FileNumber>
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_rcc.c</PathWithFileName>
-      <FilenameWithoutPath>air32f10x_rcc.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\misc.c</PathWithFileName>
+      <FilenameWithoutPath>misc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -340,8 +340,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_gpio.c</PathWithFileName>
-      <FilenameWithoutPath>air32f10x_gpio.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_usart.c</PathWithFileName>
+      <FilenameWithoutPath>air32f10x_usart.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -352,8 +352,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_usart.c</PathWithFileName>
-      <FilenameWithoutPath>air32f10x_usart.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_spi.c</PathWithFileName>
+      <FilenameWithoutPath>air32f10x_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -364,7 +364,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_dma.c</PathWithFileName>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_dma.c</PathWithFileName>
       <FilenameWithoutPath>air32f10x_dma.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -376,8 +376,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>..\..\..\..\Libraries\AIR32F10xLib\src\air32f10x_spi.c</PathWithFileName>
-      <FilenameWithoutPath>air32f10x_spi.c</FilenameWithoutPath>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_rcc.c</PathWithFileName>
+      <FilenameWithoutPath>air32f10x_rcc.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>13</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\..\..\Libraries\AIR32F10xLib\src\air32f10x_gpio.c</PathWithFileName>
+      <FilenameWithoutPath>air32f10x_gpio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
