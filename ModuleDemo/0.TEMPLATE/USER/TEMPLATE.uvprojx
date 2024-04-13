@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Libraries\AIR32F10xLib\inc;..\..\..\Libraries\CMSIS\Include;..\SYSTEM\delay;..\SYSTEM\log_print;..\USER;..\HARDWARE</IncludePath>
+              <IncludePath>..\..\..\Libraries\AIR32F10xLib\inc;..\..\..\Libraries\CMSIS\Include;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\log_print;..\USER;..\HARDWARE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -410,6 +410,11 @@
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SYSTEM\delay\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\SYSTEM\sys\sys.c</FilePath>
             </File>
             <File>
               <FileName>log_print.c</FileName>
